@@ -14,6 +14,13 @@
     "ex01": "node 01-exemplo.js",
     "ex02": "node 02-exemplo.js",
     "ex03": "node 03-exemplo.js",
+    "ex04": "node 04-exemplo.js",
+    "ex05": "node 05-exemplo.js",
+    "ex06": "node 06-exemplo.js",
+    "ex07": "node 07-exemplo.js",
+    "ex08": "node 08-exemplo.js",
+    "ex09": "node 09-exemplo.js",
+    "ex10": "node 10-exemplo.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "git": "git add . && git commit -m \"atualizando\" && git push"
   }
