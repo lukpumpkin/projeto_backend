@@ -1,25 +1,27 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <section id="principal">
 
-#resultado{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    padding: 2rem;
-}
 
-.card{
-    padding: 2rem;
-    background-color: white;
-    border-radius: 1rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  
-}
-#principal{
+            <button id="buscar_carregar">buscar</button>
+            <input type="text" id="numero">
+            <button id="btnCarregar">carregar</button>
+            <div id="resultado"></div>
+
+
+        </section>
+    </main>
+    <footer></footer>
     
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+</body>
+<script src="./assets/script.js"></script>
+</html>
