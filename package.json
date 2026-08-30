@@ -22,6 +22,6 @@
     "ex09": "node 09-exemplo.js",
     "ex10": "node 10-exemplo.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "git": "git add . && git commit -m \"atualizando\" && git push"
+    "git": "git add . && git commit -m \"referencia\" && git push"
   }
 }
