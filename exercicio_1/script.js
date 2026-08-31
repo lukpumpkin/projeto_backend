@@ -14,6 +14,7 @@ const btncarregar = document.getElementById("btnCarregar");
     
     const carregar = async () => { 
         console.log("ENTREI NA FUNÇÂO");
+        document.getElementById("resultado").innerHTML = "";
         const response = await fetch(api_site);
         
         const resposta = await response.json();
@@ -31,6 +32,7 @@ const btncarregar = document.getElementById("btnCarregar");
     }
     
     btnBusca.addEventListener("click", async function () {
+        document.getElementById("resultado").innerHTML = "";
         const num = document.getElementById("numero").value;
         const url = api_site + "/" + num;
         const response = await fetch(url);
@@ -47,4 +49,5 @@ const btncarregar = document.getElementById("btnCarregar");
         
     } );
     btncarregar.addEventListener("click", function () {
+        carregar();
 })
